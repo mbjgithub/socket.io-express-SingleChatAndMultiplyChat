@@ -1,0 +1,85 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+html,table,tr,td{
+	font-size: 14px;
+	color: #000;
+}
+table{
+	background: #BDF7F5;
+}
+ul{
+	list-style-type: none;
+}
+ul li{
+	border-top:1px solid #fff;
+	border-left: 1px solid #fff;
+	border-right:1px solid #fff;
+	border-radius:3px;
+	margin:0;
+	height: 20px;
+	text-align: center;
+    background:#B0E11E;
+    cursor: pointer;
+}
+#header{
+	width:99%;
+	height:40px;
+	border:1px solid #B0E11E;
+	border-radius: 3px;
+	background-color: #B0E11E;
+}
+#body{
+	width:100%;
+}
+.first,.second,.third,#footer{
+	width:99%;
+	border: 1px solid #BDF7F5;
+	border-radius: 3px;
+	background-color: #BDF7F5;
+	margin-top: 10px;
+}
+.third{
+	clear:both;
+}
+.first input[type=text]{
+	width: 300px;
+	height: 38px;
+	border:1px solid #B0E11E;
+	border-radius: 3px;
+	background-color: #455;
+	padding-left: 5px;
+	box-shadow: outset 2px 1px 2px #B0E11E;
+}
+.first input[type=text]:focus{
+	background-color: #fff;
+}
+input[type=button]{
+	width: 40px;
+	height: 38px;
+	border:1px solid #80FF00;
+	border-radius:3px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+#contentDiv,#userDiv{
+	float: left;
+}
+#contentTxt{
+	width:700px;
+    height: 260px;
+}
+#userlist{
+	width: 200px;
+	height: 260px;
+	overflow: auto;
+}
+#msgTxt{
+	width: 800px;
+	height: 200px;
+}
+textarea{
+	width:500px;
+	height:200px;
+}
